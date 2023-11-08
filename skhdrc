@@ -27,13 +27,12 @@ hyper - f: yabai -m display --focus north
 #modify window size--------------------------------------------------------------
 
 #maximize a window 
-#hyper - f : yabai -m window --toggle zoom-fullscreen
-#shift + ctrl + alt + meta + f14 - f : yabai -m window --toggle zoom=fullscreen
+hyper - n : yabai -m window --toggle zoom-fullscreen
+
 #balance out tree of windows
-#hyper - e : yabai -m space --balance
+hyper - m : yabai -m space --balance
 
 #Moving windows around---------------------------------------------
-
 
 # move window and split
 #ctrl + alt - j : yabai -m window --warp south
@@ -54,17 +53,17 @@ hyper - e: yabai -m window --display south; yabai -m display --focus south;
 hyper - r: yabai -m window --display north; yabai -m display --focus north;
 
 # move window to prev and next space
-hyper - m : yabai -m window --space prev;
-hyper - , : yabai -m window --space next;
+#hyper - m : yabai -m window --space prev;
+#hyper - , : yabai -m window --space next;
 
 # move window to space #
-hyper - 1 : yabai -m window --space 1;
-hyper - 2 : yabai -m window --space 2;
-hyper - 3 : yabai -m window --space 3;
-hyper - 4 : yabai -m window --space 4;
-hyper - 5 : yabai -m window --space 5;
-hyper - 6 : yabai -m window --space 6;
-hyper - 7 : yabai -m window --space 7;
+#hyper - 1 : yabai -m window --space 1;
+#hyper - 2 : yabai -m window --space 2;
+#hyper - 3 : yabai -m window --space 3;
+#hyper - 4 : yabai -m window --space 4;
+#hyper - 5 : yabai -m window --space 5;
+#hyper - 6 : yabai -m window --space 6;
+#hyper - 7 : yabai -m window --space 7;
 
 # -- Starting/Stopping/Restarting Yabai --
 
